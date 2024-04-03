@@ -30,7 +30,7 @@ jobs:
         run: cd datapack && mcb -build
 
       - name: Squash datapack
-        uses: ComunidadAylas/PackSquash-action@v3
+        uses: ComunidadAylas/PackSquash-action@v4
         with:
           path: datapack
           artifact_name: datapack-raw
